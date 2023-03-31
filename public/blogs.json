@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "author_name": "Emerson Piggot",
+    "blog_title": "What Would the World Look Like Without Web Developer?",
+    "blog_cover_image": "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?t=st=1680277929~exp=1680278529~hmac=a5b6ce45a50d7090f276e1a7b35c7c8c87ac61f152dffc16084aab0e619aaeff",
+    "author_image": "https://www.microsoftpartnercommunity.com/t5/image/serverpage/image-id/9194i0386CCAA7F026B59/image-size/large/is-moderation-mode/true?v=v2&px=999",
+    "read_time": 12,
+    "publish_date": "29/6/2022"
+    }, 
+    {
+    "id": 2,
+    "author_name": "Benoite Brookzie",
+    "blog_title": "Web Developer: 11 Thing You're Forgetting to Do",
+    "blog_cover_image": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=740&t=st=1680277977~exp=1680278577~hmac=ed455e33472d7f910d4f2dc1dd2520346fd2d0f25d4b6644d65863fbf17dc0e3",
+    "author_image": "https://www.pngitem.com/pimgs/m/579-5794945_circle-profile-hd-png-download.png",
+    "read_time": 5,
+    "publish_date": "4/7/2022"
+    }, 
+    {
+    "id": 3,
+    "author_name": "Eric Kyneton",
+    "blog_title": "The Ultimate Guide to Microsoft Powerpoint",
+    "blog_cover_image": "https://img.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_155003-10571.jpg?w=900&t=st=1680278057~exp=1680278657~hmac=b63bc4378bec0b0679e18d144efc99e23bfb9af99da56674ae594c65ad580c32",
+    "author_image": "https://www.mockofun.com/wp-content/uploads/2019/12/circle-profile-pic.jpg",
+    "read_time": 10,
+    "publish_date": "22/11/2022"
+    }, 
+    {
+    "id": 4,
+    "author_name": "Tiff Raund",
+    "blog_title": "What I Wish I Knew a Year Ago About Web Developer Chat Gpt",
+    "blog_cover_image": "https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1060&t=st=1680278158~exp=1680278758~hmac=4cac8064ff4f8ba80b7fd9392ab4cd16b23a8e976b0f9b1563823e32353407c2",
+    "author_image": "https://simg.nicepng.com/png/small/182-1829287_cammy-lin-ux-designer-circle-picture-profile-girl.png",
+    "read_time": 6,
+    "publish_date": "23/7/2022"
+    }]
