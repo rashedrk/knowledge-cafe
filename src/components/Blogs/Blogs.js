@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import './Blogs.css';
+import Blog from '../Blog/Blog';
 
-const Blog = () => {
+const Blogs = () => {
+    const [blogs,setBlogs] = useState([]);
+    useEffect(() => {
+        fetch('blogs.json')
+        .then(res => res.json())
+        .then(data => setBlogs(data))
+    },[])
     return (
-        <div>
-            
+        <div className='blogs-container'>
+            <div className="blogs">
+                {
+                    blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
+                }
+            </div>
+            <div className="sidebar">
+
+            </div>
         </div>
     );
 };
 
-export default Blog;
+export default Blogs;
