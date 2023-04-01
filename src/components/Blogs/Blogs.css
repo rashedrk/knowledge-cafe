@@ -3,3 +3,9 @@
     grid-template-columns: 3fr 2fr;
     gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .blogs-container{
+        display: block;
+    }
+}
