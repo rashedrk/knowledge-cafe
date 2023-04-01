@@ -1,8 +1,12 @@
 import React from 'react';
 import './Blog.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBookmark} from '@fortawesome/free-regular-svg-icons';
+
 
 const Blog = (props) => {
-    const {author_name,blog_title,blog_cover_image,author_image,read_time,publish_date} = props.blog;
+    const log = () => console.log('clicked');
+    const {author_name,blog_title,blog_cover_image,author_image,read_time} = props.blog;
     return (
             <div className="card mb-3" >
                 <img src={blog_cover_image} class="card-img-top" alt=""/>
@@ -18,12 +22,12 @@ const Blog = (props) => {
                             </div>
                             <h3>{blog_title}</h3>
                             <p className='small-text'>#beginners #programming</p>
-                            <a href="">Mark as read</a>
+                            <button className='btn text-primary text-decoration-underline'>Mark as read</button>
 
                         </div>
-                        <div>
-                            <p className='small-text'>{read_time} min read</p>
-                            <a href="">icon</a>
+                        <div className='bookmark'>
+                            <p className='small-text mt-2'>{read_time} min read</p>
+                            <button className='btn'><FontAwesomeIcon icon={faBookmark} /></button>
                         </div>
                     </div>
                 </div>
