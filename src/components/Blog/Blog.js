@@ -5,8 +5,7 @@ import {faBookmark} from '@fortawesome/free-regular-svg-icons';
 
 
 const Blog = (props) => {
-    const time = props.time;
-    const setTime = props.setTime;
+    const {time,setTime,bookmark,setBookmark} = props;
     const {author_name,blog_title,blog_cover_image,author_image,read_time} = props.blog;
     return (
             <div className="card mb-3" >
@@ -28,7 +27,7 @@ const Blog = (props) => {
                         </div>
                         <div className='bookmark'>
                             <p className='small-text mt-2'>{read_time} min read</p>
-                            <button className='btn'><FontAwesomeIcon icon={faBookmark} /></button>
+                            <button onClick={()=>{setBookmark([...bookmark,blog_title])}} className='btn'><FontAwesomeIcon icon={faBookmark} /></button>
                         </div>
                     </div>
                 </div>
