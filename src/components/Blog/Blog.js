@@ -5,7 +5,8 @@ import {faBookmark} from '@fortawesome/free-regular-svg-icons';
 
 
 const Blog = (props) => {
-    const log = () => console.log('clicked');
+    const time = props.time;
+    const setTime = props.setTime;
     const {author_name,blog_title,blog_cover_image,author_image,read_time} = props.blog;
     return (
             <div className="card mb-3" >
@@ -22,7 +23,7 @@ const Blog = (props) => {
                             </div>
                             <h3>{blog_title}</h3>
                             <p className='small-text'>#beginners #programming</p>
-                            <button className='btn text-primary text-decoration-underline'>Mark as read</button>
+                            <button onClick={()=>{setTime(time+read_time)}} className='btn text-primary text-decoration-underline'>Mark as read</button>
 
                         </div>
                         <div className='bookmark'>
